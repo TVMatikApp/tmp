@@ -1,0 +1,2761 @@
+{
+  "id": "app.tvmatik.plugins",
+  "name": "TVMatik Plugins",
+  "description": "TVMatik eklenti deposu",
+  "logo": "https://avatars.githubusercontent.com/u/344905757?v=4",
+  "version": "0.1.4",
+  "author": "tvmatik",
+  "scrapers": [
+    {
+      "id": "plugin.catalog.nuvio",
+      "name": "Nuvio Katalog Plugin",
+      "logo": "https://www.google.com/s2/favicons?domain=catalog.nuvio.tv&sz=256",
+      "version": "0.1.0",
+      "filename": "catalog.js",
+      "pluginType": "catalog",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": false,
+      "supportsSearch": true,
+      "catalogs": [
+        {
+          "id": "trending-movies",
+          "name": "Gündemdeki Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "trending-series",
+          "name": "Gündemdeki Diziler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "popular-movies",
+          "name": "Popüler Filmler",
+          "type": "movie",
+          "supportsPagination": true,
+          "extra": [
+            {
+              "name": "search"
+            },
+            {
+              "name": "genre"
+            }
+          ]
+        },
+        {
+          "id": "popular-series",
+          "name": "Popüler Diziler",
+          "type": "series",
+          "supportsPagination": true,
+          "extra": [
+            {
+              "name": "search"
+            },
+            {
+              "name": "genre"
+            }
+          ]
+        },
+        {
+          "id": "airing-today-series",
+          "name": "Bugün Yayınlanan Diziler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "critically-acclaimed-movies",
+          "name": "Eleştirmenlerin Beğendiği Filmler",
+          "type": "movie",
+          "supportsPagination": true,
+          "extra": [
+            {
+              "name": "genre"
+            }
+          ]
+        },
+        {
+          "id": "critically-acclaimed-series",
+          "name": "Eleştirmenlerin Beğendiği Diziler",
+          "type": "series",
+          "supportsPagination": true,
+          "extra": [
+            {
+              "name": "genre"
+            }
+          ]
+        },
+        {
+          "id": "new-and-upcoming-movies",
+          "name": "Yeni ve Yaklaşan Filmler",
+          "type": "movie",
+          "supportsPagination": true,
+          "extra": [
+            {
+              "name": "genre"
+            }
+          ]
+        },
+        {
+          "id": "new-and-returning-series",
+          "name": "Yeni ve Geri Dönen Diziler",
+          "type": "series",
+          "supportsPagination": true,
+          "extra": [
+            {
+              "name": "genre"
+            }
+          ]
+        },
+        {
+          "id": "movies-by-year",
+          "name": "Yıllara Göre Filmler",
+          "type": "movie",
+          "supportsPagination": true,
+          "extra": [
+            {
+              "name": "genre"
+            }
+          ]
+        },
+        {
+          "id": "series-by-year",
+          "name": "Yıllara Göre Diziler",
+          "type": "series",
+          "supportsPagination": true,
+          "extra": [
+            {
+              "name": "genre"
+            }
+          ]
+        },
+        {
+          "id": "movies-by-language",
+          "name": "Dillere Göre Filmler",
+          "type": "movie",
+          "supportsPagination": true,
+          "extra": [
+            {
+              "name": "genre"
+            }
+          ]
+        },
+        {
+          "id": "series-by-language",
+          "name": "Dillere Göre Diziler",
+          "type": "series",
+          "supportsPagination": true,
+          "extra": [
+            {
+              "name": "genre"
+            }
+          ]
+        },
+        {
+          "id": "netflix-movies",
+          "name": "Netflix Filmleri",
+          "type": "movie",
+          "supportsPagination": true,
+          "extra": [
+            {
+              "name": "genre"
+            }
+          ]
+        },
+        {
+          "id": "netflix-series",
+          "name": "Netflix Dizileri",
+          "type": "series",
+          "supportsPagination": true,
+          "extra": [
+            {
+              "name": "genre"
+            }
+          ]
+        },
+        {
+          "id": "disney-plus-movies",
+          "name": "Disney+ Filmleri",
+          "type": "movie",
+          "supportsPagination": true,
+          "extra": [
+            {
+              "name": "genre"
+            }
+          ]
+        },
+        {
+          "id": "disney-plus-series",
+          "name": "Disney+ Dizileri",
+          "type": "series",
+          "supportsPagination": true,
+          "extra": [
+            {
+              "name": "genre"
+            }
+          ]
+        },
+        {
+          "id": "prime-video-movies",
+          "name": "Prime Video Filmleri",
+          "type": "movie",
+          "supportsPagination": true,
+          "extra": [
+            {
+              "name": "genre"
+            }
+          ]
+        },
+        {
+          "id": "prime-video-series",
+          "name": "Prime Video Dizileri",
+          "type": "series",
+          "supportsPagination": true,
+          "extra": [
+            {
+              "name": "genre"
+            }
+          ]
+        },
+        {
+          "id": "international-cinema",
+          "name": "Uluslararası Sinema",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "international-series",
+          "name": "Uluslararası Diziler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "independent-and-festival-picks",
+          "name": "Bağımsız ve Festival Seçkileri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "limited-series",
+          "name": "Mini Diziler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "documentaries",
+          "name": "Belgeseller",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "documentary-series",
+          "name": "Belgesel Diziler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "family-movies",
+          "name": "Aile Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "family-series",
+          "name": "Aile Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        }
+      ]
+    },
+    {
+      "id": "plugin.hdfilmcehennemi",
+      "name": "HDFilmCehennemi",
+      "logo": "https://www.google.com/s2/favicons?domain=hdfilmcehennemi.com&sz=256",
+      "version": "0.1.1",
+      "filename": "hdfilmcehennemi.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "supportsSearch": true,
+      "supportsComments": true,
+      "catalogs": [
+        {
+          "id": "new-movies",
+          "name": "Yeni Eklenen Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "new-series",
+          "name": "Yeni Eklenen Diziler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "recommended",
+          "name": "Tavsiye Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "imdb7",
+          "name": "IMDb 7+ Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "action",
+          "name": "Aksiyon",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "science-fiction",
+          "name": "Bilim Kurgu",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "animation",
+          "name": "Animasyon",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "comedy",
+          "name": "Komedi",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "horror",
+          "name": "Korku",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "drama",
+          "name": "Dram",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "romance",
+          "name": "Romantik",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "war",
+          "name": "Savaş",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "sports",
+          "name": "Spor",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "crime",
+          "name": "Suç",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "history",
+          "name": "Tarih",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "western",
+          "name": "Western",
+          "type": "movie",
+          "supportsPagination": true
+        }
+      ]
+    },
+    {
+      "id": "plugin.filmmakinesi",
+      "name": "FilmMakinesi",
+      "logo": "https://www.google.com/s2/favicons?domain=filmmakinesi.to&sz=256",
+      "version": "0.1.0",
+      "filename": "filmmakinesi.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "supportsSearch": true,
+      "supportsComments": true,
+      "catalogs": [
+        {
+          "id": "latest-movies",
+          "name": "Son Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "must-watch",
+          "name": "Ölmeden İzle",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "action",
+          "name": "Aksiyon",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "science-fiction",
+          "name": "Bilim Kurgu",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "adventure",
+          "name": "Macera",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "comedy",
+          "name": "Komedi",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "romance",
+          "name": "Romantik",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "documentary",
+          "name": "Belgesel",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "fantasy",
+          "name": "Fantastik",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "crime",
+          "name": "Polisiye Suç",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "horror",
+          "name": "Korku",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "animation",
+          "name": "Animasyon",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "mystery",
+          "name": "Gizem",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "latest-series",
+          "name": "Son Diziler",
+          "type": "series",
+          "supportsPagination": true
+        }
+      ]
+    },
+    {
+      "id": "plugin.rarefilm",
+      "name": "RareFilm",
+      "logo": "https://www.google.com/s2/favicons?domain=rarefilmm.com&sz=256",
+      "version": "0.1.0",
+      "filename": "rarefilm.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true,
+      "supportsSearch": true,
+      "catalogs": [
+        {
+          "id": "latest",
+          "name": "Son Eklenenler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "rare-films",
+          "name": "Nadir Filmler",
+          "type": "movie",
+          "showInHome": true,
+          "supportsPagination": true
+        },
+        {
+          "id": "world-cinema",
+          "name": "Dünya Sineması",
+          "type": "movie",
+          "showInHome": true,
+          "supportsPagination": true
+        },
+        {
+          "id": "action",
+          "name": "Aksiyon",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "adventure",
+          "name": "Macera",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "animation",
+          "name": "Animasyon",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "camp",
+          "name": "Kamp",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "comedy",
+          "name": "Komedi",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "documentary",
+          "name": "Belgesel",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "drama",
+          "name": "Dram",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "erotic",
+          "name": "Erotik",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "family",
+          "name": "Aile",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "fantasy",
+          "name": "Fantastik",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "mystery",
+          "name": "Gizem",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "theatre",
+          "name": "Tiyatro",
+          "type": "movie",
+          "supportsPagination": true
+        }
+      ]
+    },
+    {
+      "id": "plugin.4khdhub",
+      "name": "4KHDHub",
+      "logo": "https://www.google.com/s2/favicons?domain=4khdhub.com&sz=256",
+      "version": "0.1.0",
+      "filename": "4khdhub.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        { "id": "netflix", "name": "Netflix", "type": "movie", "supportsPagination": true },
+        { "id": "amazon_prime_video", "name": "Amazon Prime Video", "type": "movie", "supportsPagination": true },
+        { "id": "jiohotstar", "name": "JioHotstar", "type": "movie", "supportsPagination": true },
+        { "id": "disney", "name": "Disney+", "type": "movie", "supportsPagination": true },
+        { "id": "apple_tv", "name": "Apple TV+", "type": "movie", "supportsPagination": true },
+        { "id": "hbo_max", "name": "HBO Max", "type": "movie", "supportsPagination": true },
+        { "id": "hulu", "name": "Hulu", "type": "movie", "supportsPagination": true },
+        { "id": "crave", "name": "Crave", "type": "movie", "supportsPagination": true }
+      ]
+    },
+    {
+      "id": "plugin.aoneroom",
+      "name": "123Movies",
+      "logo": "https://www.google.com/s2/favicons?domain=123moviesfree.club&sz=256",
+      "version": "0.1.0",
+      "filename": "aoneroom.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true
+    },
+    {
+      "id": "plugin.atlantic",
+      "name": "Atlantic",
+      "logo": "https://www.google.com/s2/favicons?domain=atlantic.st&sz=256",
+      "version": "0.1.0",
+      "filename": "atlantic.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true
+    },
+    {
+      "id": "plugin.febbox",
+      "name": "Febbox",
+      "logo": "https://www.google.com/s2/favicons?domain=febbox.com&sz=256",
+      "version": "0.1.0",
+      "filename": "febbox.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true
+    },
+    {
+      "id": "plugin.kmmovies",
+      "name": "KMMovies",
+      "logo": "https://www.google.com/s2/favicons?domain=kmmovies.cam&sz=256",
+      "version": "0.1.0",
+      "filename": "kmmovies.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true
+    },
+    {
+      "id": "plugin.mapple",
+      "name": "Mapple",
+      "logo": "https://www.google.com/s2/favicons?domain=mapple.fun&sz=256",
+      "version": "0.1.0",
+      "filename": "mapple.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true
+    },
+    {
+      "id": "plugin.moviesapi",
+      "name": "MoviesAPI",
+      "logo": "https://www.google.com/s2/favicons?domain=moviesapi.to&sz=256",
+      "version": "0.1.0",
+      "filename": "moviesapi.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true
+    },
+    {
+      "id": "plugin.moviesdrive",
+      "name": "MoviesDrive",
+      "logo": "https://www.google.com/s2/favicons?domain=moviesdrive.beer&sz=256",
+      "version": "0.1.0",
+      "filename": "moviesdrive.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true
+    },
+    {
+      "id": "plugin.popwatch",
+      "name": "PopWatch",
+      "logo": "https://www.google.com/s2/favicons?domain=popwatch.pro&sz=256",
+      "version": "0.1.0",
+      "filename": "popwatch.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true
+    },
+    {
+      "id": "plugin.thugtv",
+      "name": "ThugTV",
+      "logo": "https://www.google.com/s2/favicons?domain=thugtv.online&sz=256",
+      "version": "0.1.0",
+      "filename": "thugtv.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true
+    },
+    {
+      "id": "plugin.uhdmovies",
+      "name": "UHDMovies",
+      "logo": "https://www.google.com/s2/favicons?domain=uhdmovies.us.org&sz=256",
+      "version": "0.1.0",
+      "filename": "uhdmovies.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true
+    },
+    {
+      "id": "plugin.vaplayer",
+      "name": "VAplayer",
+      "logo": "https://www.google.com/s2/favicons?domain=vaplayer.ru&sz=256",
+      "version": "0.1.0",
+      "filename": "vaplayer.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true
+    },
+    {
+      "id": "plugin.vidbolt",
+      "name": "VidBolt",
+      "logo": "https://www.google.com/s2/favicons?domain=vidbolt.xyz&sz=256",
+      "version": "0.1.0",
+      "filename": "vidbolt.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true
+    },
+    {
+      "id": "plugin.vidcloud",
+      "name": "VidCloud",
+      "logo": "https://www.google.com/s2/favicons?domain=vidy.st&sz=256",
+      "version": "0.1.0",
+      "filename": "vidcloud.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true
+    },
+    {
+      "id": "plugin.vidlove",
+      "name": "Vidlove",
+      "logo": "https://www.google.com/s2/favicons?domain=vidlove.cc&sz=256",
+      "version": "0.1.0",
+      "filename": "vidlove.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true
+    },
+    {
+      "id": "plugin.vidrift",
+      "name": "VidRift",
+      "logo": "https://www.google.com/s2/favicons?domain=vidrift.net&sz=256",
+      "version": "0.1.0",
+      "filename": "vidrift.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true
+    },
+    {
+      "id": "plugin.vidrock",
+      "name": "VidRock",
+      "logo": "https://www.google.com/s2/favicons?domain=vidrock.net&sz=256",
+      "version": "0.1.0",
+      "filename": "vidrock.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true
+    },
+    {
+      "id": "plugin.vixsrc",
+      "name": "VixSrc",
+      "logo": "https://www.google.com/s2/favicons?domain=vixsrc.to&sz=256",
+      "version": "0.1.0",
+      "filename": "vixsrc.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true
+    },
+    {
+      "id": "plugin.yts",
+      "name": "YTS",
+      "logo": "https://www.google.com/s2/favicons?domain=yts-official.com&sz=256",
+      "version": "0.1.0",
+      "filename": "yts.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true
+    },
+    {
+      "id": "plugin.filmekseni",
+      "name": "FilmEkseni",
+      "logo": "https://www.google.com/s2/favicons?domain=filmekseni.vip&sz=256",
+      "version": "0.1.0",
+      "filename": "filmekseni.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "supportsSearch": true,
+      "catalogs": [
+        {
+          "id": "movies",
+          "name": "Son Eklenen Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series",
+          "name": "Son Eklenen Diziler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "action",
+          "name": "Aksiyon",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "animation",
+          "name": "Animasyon",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "science-fiction",
+          "name": "Bilim Kurgu",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "comedy",
+          "name": "Komedi",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "thriller",
+          "name": "Gerilim",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "horror",
+          "name": "Korku",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "top-movies",
+          "name": "Yüksek Puanlı Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "top-series",
+          "name": "Yüksek Puanlı Diziler",
+          "type": "series",
+          "supportsPagination": true
+        }
+      ]
+    },
+    {
+      "id": "plugin.diziyou",
+      "name": "DiziYou",
+      "logo": "https://www.google.com/s2/favicons?domain=diziyou.one&sz=256",
+      "version": "0.1.0",
+      "filename": "diziyou.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "supportsSearch": true,
+      "catalogs": [
+        {
+          "id": "family",
+          "name": "Aile",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "action",
+          "name": "Aksiyon",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "animation",
+          "name": "Animasyon",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "documentary",
+          "name": "Belgesel",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "science-fiction",
+          "name": "Bilim Kurgu",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "drama",
+          "name": "Dram",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "fantasy",
+          "name": "Fantazi",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "thriller",
+          "name": "Gerilim",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "mystery",
+          "name": "Gizem",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "comedy",
+          "name": "Komedi",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "horror",
+          "name": "Korku",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "adventure",
+          "name": "Macera",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "political",
+          "name": "Politik",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "war",
+          "name": "Savaş",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "crime",
+          "name": "Suç",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "western",
+          "name": "Vahşi Batı",
+          "type": "series",
+          "supportsPagination": true
+        }
+      ]
+    },
+    {
+      "id": "plugin.dizibox",
+      "name": "DiziBox",
+      "logo": "https://www.google.com/s2/favicons?domain=www.dizibox.live&sz=256",
+      "version": "0.1.0",
+      "filename": "dizibox.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "supportsSearch": true,
+      "supportsComments": true,
+      "catalogs": [
+        {
+          "id": "aile",
+          "name": "Aile",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "aksiyon",
+          "name": "Aksiyon",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "animasyon",
+          "name": "Animasyon",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "belgesel",
+          "name": "Belgesel",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "bilimkurgu",
+          "name": "Bilimkurgu",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "biyografi",
+          "name": "Biyografi",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "dram",
+          "name": "Dram",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "fantastik",
+          "name": "Fantastik",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "gerilim",
+          "name": "Gerilim",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "gizem",
+          "name": "Gizem",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "komedi",
+          "name": "Komedi",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "korku",
+          "name": "Korku",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "macera",
+          "name": "Macera",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "romantik",
+          "name": "Romantik",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "savas",
+          "name": "Savaş",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "suc",
+          "name": "Suç",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "tarih",
+          "name": "Tarih",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "western",
+          "name": "Western",
+          "type": "series",
+          "supportsPagination": true
+        }
+      ]
+    },
+    {
+      "id": "plugin.sinewix",
+      "name": "SineWix",
+      "logo": "https://www.google.com/s2/favicons?domain=sinewix.com&sz=256",
+      "version": "0.1.0",
+      "filename": "sinewix.js",
+      "pluginType": "catalog",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "supportsSearch": true,
+      "catalogs": [
+        {
+          "id": "latest-movies",
+          "name": "Yeni Eklenen Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "latest-series",
+          "name": "Yeni Eklenen Diziler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "latest-animes",
+          "name": "Yeni Eklenen Animeler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "latest-episodes",
+          "name": "Yeni Bölümler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "crime-movies",
+          "name": "Suç Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "crime-series",
+          "name": "Suç Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "mystery-movies",
+          "name": "Gizem Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "mystery-series",
+          "name": "Gizem Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "animation-movies",
+          "name": "Animasyon Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "war-politics-series",
+          "name": "Savaş ve Politika Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        }
+      ]
+    },
+    {
+      "id": "plugin.dizimom",
+      "name": "DiziMom",
+      "logo": "https://www.google.com/s2/favicons?domain=dizimom.help&sz=256",
+      "version": "0.1.0",
+      "filename": "dizimom.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ]
+    },
+    {
+      "id": "plugin.filmmodu",
+      "name": "FilmModu",
+      "logo": "https://www.google.com/s2/favicons?domain=filmmodu.cc&sz=256",
+      "version": "0.1.0",
+      "filename": "filmmodu.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "movie"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "supportsSearch": true,
+      "catalogs": [
+        {
+          "id": "latest-movies",
+          "name": "Son Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "dubbed",
+          "name": "Türkçe Dublaj",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "subtitled",
+          "name": "Türkçe Altyazılı",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "action",
+          "name": "Aksiyon",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "comedy",
+          "name": "Komedi",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "horror",
+          "name": "Korku",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "science-fiction",
+          "name": "Bilim Kurgu",
+          "type": "movie",
+          "supportsPagination": true
+        }
+      ]
+    },
+    {
+      "id": "plugin.dizibal",
+      "name": "DiziBal",
+      "logo": "https://www.google.com/s2/favicons?domain=dizibal.org&sz=256",
+      "version": "0.1.0",
+      "filename": "dizibal.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "supportsSearch": true,
+      "catalogs": [
+        {
+          "id": "latest-movies",
+          "name": "Yeni Eklenen Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "latest-series",
+          "name": "Yeni Eklenen Diziler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "action-movies",
+          "name": "Aksiyon Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "action-series",
+          "name": "Aksiyon Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        }
+      ]
+    },
+    {
+      "id": "plugin.dexterpw",
+      "name": "DexterPW",
+      "logo": "https://www.google.com/s2/favicons?domain=dexter.pw&sz=256",
+      "version": "0.1.0",
+      "filename": "dexterpw.js",
+      "pluginType": "foreign-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "en"
+      ],
+      "supportsStreams": true,
+      "supportsSearch": true,
+      "catalogs": [
+        {
+          "id": "action-movies",
+          "name": "Aksiyon Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "adventure-movies",
+          "name": "Macera Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "animation-movies",
+          "name": "Animasyon Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "comedy-movies",
+          "name": "Komedi Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "crime-movies",
+          "name": "Suç Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "documentary-movies",
+          "name": "Belgeseller",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "drama-movies",
+          "name": "Dram Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "family-movies",
+          "name": "Aile Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "fantasy-movies",
+          "name": "Fantastik Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "history-movies",
+          "name": "Tarih Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "horror-movies",
+          "name": "Korku Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "music-movies",
+          "name": "Müzik Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "mystery-movies",
+          "name": "Gizem Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "romance-movies",
+          "name": "Romantik Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "science-fiction-movies",
+          "name": "Bilim Kurgu Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "tv-movies",
+          "name": "TV Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "thriller-movies",
+          "name": "Gerilim Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "war-movies",
+          "name": "Savaş Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "western-movies",
+          "name": "Western Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "latest-series",
+          "name": "Yeni Eklenen Diziler",
+          "type": "series",
+          "supportsPagination": false
+        },
+        {
+          "id": "top10-series",
+          "name": "Top 10 Diziler",
+          "type": "series",
+          "supportsPagination": false
+        },
+        {
+          "id": "action-adventure-series",
+          "name": "Aksiyon ve Macera Dizileri",
+          "type": "series",
+          "supportsPagination": false
+        },
+        {
+          "id": "drama-series",
+          "name": "Dram Dizileri",
+          "type": "series",
+          "supportsPagination": false
+        },
+        {
+          "id": "comedy-series",
+          "name": "Komedi Dizileri",
+          "type": "series",
+          "supportsPagination": false
+        },
+        {
+          "id": "top-rated-series",
+          "name": "Yüksek Puanlı Diziler",
+          "type": "series",
+          "supportsPagination": false
+        },
+        {
+          "id": "crime-series",
+          "name": "Suç Dizileri",
+          "type": "series",
+          "supportsPagination": false
+        },
+        {
+          "id": "mystery-series",
+          "name": "Gizem Dizileri",
+          "type": "series",
+          "supportsPagination": false
+        },
+        {
+          "id": "all-series",
+          "name": "Tüm Diziler",
+          "type": "series",
+          "supportsPagination": false
+        }
+      ]
+    },
+    {
+      "id": "plugin.animecix",
+      "name": "AnimeciX",
+      "logo": "https://www.google.com/s2/favicons?domain=animecix.tv&sz=256",
+      "version": "0.1.0",
+      "filename": "animecix.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "tv",
+        "anime"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        {
+          "id": "series",
+          "name": "Seriler",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": false
+        },
+        {
+          "id": "movies",
+          "name": "Filmler",
+          "type": "movie",
+          "showInHome": true,
+          "supportsPagination": false
+        }
+      ]
+    },
+    {
+      "id": "plugin.animeprax",
+      "name": "AnimePraX",
+      "logo": "https://www.google.com/s2/favicons?domain=animeprax.com&sz=256",
+      "version": "0.1.0",
+      "filename": "animeprax.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "tv",
+        "anime"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        {
+          "id": "home",
+          "name": "Yeni Eklenen Animeler",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": false
+        }
+      ]
+    },
+    {
+      "id": "plugin.animom",
+      "name": "AniMOM",
+      "logo": "https://www.google.com/s2/favicons?domain=animom.org&sz=256",
+      "version": "0.1.0",
+      "filename": "animom.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "tv",
+        "anime"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        {
+          "id": "home",
+          "name": "Yeni Eklenen Animeler",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": false
+        }
+      ]
+    },
+    {
+      "id": "plugin.anizium",
+      "name": "Anizium",
+      "logo": "https://www.google.com/s2/favicons?domain=anizium.co&sz=256",
+      "version": "0.1.0",
+      "filename": "anizium.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        {
+          "id": "home",
+          "name": "Öne Çıkan Animeler",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": false
+        }
+      ]
+    },
+    {
+      "id": "plugin.anizm",
+      "name": "Anizm",
+      "logo": "https://www.google.com/s2/favicons?domain=anizm.net&sz=256",
+      "version": "0.1.0",
+      "filename": "anizm.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "tv",
+        "anime"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        {
+          "id": "home",
+          "name": "Yeni Eklenen Animeler",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": false
+        }
+      ]
+    },
+    {
+      "id": "plugin.ddizi",
+      "name": "DDizi",
+      "logo": "https://www.google.com/s2/favicons?domain=ddizi.im&sz=256",
+      "version": "0.1.0",
+      "filename": "ddizi.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "supportsSearch": true,
+      "catalogs": [
+        {
+          "id": "latest",
+          "name": "Yeni Eklenenler",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": true
+        },
+        {
+          "id": "domestic",
+          "name": "Yerli Diziler",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": true
+        },
+        {
+          "id": "old-series",
+          "name": "Eski Diziler",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": true
+        },
+        {
+          "id": "foreign",
+          "name": "Yabancı Diziler",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": true
+        }
+      ]
+    },
+    {
+      "id": "plugin.ddizibox",
+      "name": "DDiziBox",
+      "logo": "https://www.google.com/s2/favicons?domain=ddizibox.com&sz=256",
+      "version": "0.1.0",
+      "filename": "ddizibox.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        {
+          "id": "filmler",
+          "name": "Film Ara",
+          "type": "movie",
+          "showInHome": true,
+          "supportsPagination": false,
+          "extra": [
+            {
+              "name": "search"
+            }
+          ]
+        },
+        {
+          "id": "diziler",
+          "name": "Dizi Ara",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": false,
+          "extra": [
+            {
+              "name": "search"
+            }
+          ]
+        },
+        {
+          "id": "animeler",
+          "name": "Anime Ara",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": false,
+          "extra": [
+            {
+              "name": "search"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plugin.dizibak",
+      "name": "DiziBak",
+      "logo": "https://www.google.com/s2/favicons?domain=dizibak.net&sz=256",
+      "version": "0.1.0",
+      "filename": "dizibak.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        {
+          "id": "home",
+          "name": "Yeni Eklenen Diziler",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": false
+        }
+      ]
+    },
+    {
+      "id": "plugin.diziboxizle",
+      "name": "DiziBoxİzle",
+      "logo": "https://www.google.com/s2/favicons?domain=diziboxizle.com&sz=256",
+      "version": "0.1.0",
+      "filename": "diziboxizle.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        {
+          "id": "home",
+          "name": "Yeni Eklenen Diziler",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": false
+        }
+      ]
+    },
+    {
+      "id": "plugin.dizilla",
+      "name": "Dizilla",
+      "logo": "https://www.google.com/s2/favicons?domain=dizilla.now&sz=256",
+      "version": "0.1.0",
+      "filename": "dizilla.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true
+    },
+    {
+      "id": "plugin.dizipod",
+      "name": "DiziPod",
+      "logo": "https://www.google.com/s2/favicons?domain=dizipod.com&sz=256",
+      "version": "0.1.0",
+      "filename": "dizipod.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        {
+          "id": "home",
+          "name": "Öne Çıkan İçerikler",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": false
+        }
+      ]
+    },
+    {
+      "id": "plugin.diziwatch",
+      "name": "DiziWatch",
+      "logo": "https://www.google.com/s2/favicons?domain=diziwatch.app&sz=256",
+      "version": "0.1.0",
+      "filename": "diziwatch.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        {
+          "id": "home",
+          "name": "Yeni Eklenen Diziler",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": false
+        }
+      ]
+    },
+    {
+      "id": "plugin.hdfilmdelisi",
+      "name": "HDFilmDelisi",
+      "logo": "https://www.google.com/s2/favicons?domain=hdfilmdelisi.one&sz=256",
+      "version": "0.1.0",
+      "filename": "hdfilmdelisi.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "movie"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        {
+          "id": "home",
+          "name": "Yeni Eklenen Filmler",
+          "type": "movie",
+          "showInHome": true,
+          "supportsPagination": false
+        }
+      ]
+    },
+    {
+      "id": "plugin.hdfilmizle",
+      "name": "HDFilmİzle",
+      "logo": "https://www.google.com/s2/favicons?domain=hdfilmizle.vip&sz=256",
+      "version": "0.1.0",
+      "filename": "hdfilmizle.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "movie"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        {
+          "id": "home",
+          "name": "Yeni Eklenen Filmler",
+          "type": "movie",
+          "showInHome": true,
+          "supportsPagination": false
+        }
+      ]
+    },
+    {
+      "id": "plugin.kultfilmler",
+      "name": "KultFilmler",
+      "logo": "https://www.google.com/s2/favicons?domain=kultfilmler.net&sz=256",
+      "version": "0.1.0",
+      "filename": "kultfilmler.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        {
+          "id": "latest",
+          "name": "Son Eklenenler",
+          "type": "movie",
+          "showInHome": true,
+          "supportsPagination": false
+        },
+        {
+          "id": "archive",
+          "name": "Film Arşivi",
+          "type": "movie",
+          "showInHome": true,
+          "supportsPagination": false
+        },
+        {
+          "id": "series",
+          "name": "Diziler",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": false
+        }
+      ]
+    },
+    {
+      "id": "plugin.liderfilmizle",
+      "name": "LiderFilm",
+      "logo": "https://www.google.com/s2/favicons?domain=liderfilmizle.vip&sz=256",
+      "version": "0.1.0",
+      "filename": "liderfilmizle.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        {
+          "id": "anthology_liderfilm_movies",
+          "name": "Yeni Eklenen Filmler",
+          "type": "movie",
+          "showInHome": true,
+          "supportsPagination": false
+        },
+        {
+          "id": "anthology_liderfilm_series",
+          "name": "Yeni Eklenen Diziler",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": false
+        }
+      ]
+    },
+    {
+      "id": "plugin.setfilmizle",
+      "name": "SetFilmİzle",
+      "logo": "https://www.google.com/s2/favicons?domain=setfilmizle.ltd&sz=256",
+      "version": "0.1.0",
+      "filename": "setfilmizle.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        {
+          "id": "latest-movies",
+          "name": "Son Eklenen Filmler",
+          "type": "movie",
+          "showInHome": true,
+          "supportsPagination": true
+        },
+        {
+          "id": "latest-series",
+          "name": "Son Eklenen Diziler",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": true
+        },
+        {
+          "id": "action",
+          "name": "Aksiyon Filmleri",
+          "type": "movie",
+          "showInHome": true,
+          "supportsPagination": true
+        },
+        {
+          "id": "science-fiction",
+          "name": "Bilim Kurgu Filmleri",
+          "type": "movie",
+          "showInHome": true,
+          "supportsPagination": true
+        }
+      ]
+    },
+    {
+      "id": "plugin.sinemacx",
+      "name": "SinemaCX",
+      "logo": "https://www.google.com/s2/favicons?domain=sinema.gg&sz=256",
+      "version": "0.1.0",
+      "filename": "sinemacx.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        {
+          "id": "latest",
+          "name": "Son Eklenen Filmler",
+          "type": "movie",
+          "showInHome": true,
+          "supportsPagination": false
+        },
+        {
+          "id": "dubbed",
+          "name": "Türkçe Dublaj",
+          "type": "movie",
+          "showInHome": true,
+          "supportsPagination": false
+        },
+        {
+          "id": "subtitled",
+          "name": "Türkçe Altyazılı",
+          "type": "movie",
+          "showInHome": true,
+          "supportsPagination": false
+        },
+        {
+          "id": "popular",
+          "name": "En Çok İzlenenler",
+          "type": "movie",
+          "showInHome": true,
+          "supportsPagination": false
+        }
+      ]
+    },
+    {
+      "id": "plugin.sonanime",
+      "name": "SonAnime",
+      "logo": "https://www.google.com/s2/favicons?domain=sonanime.com&sz=256",
+      "version": "0.1.0",
+      "filename": "sonanime.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "tv",
+        "anime"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        {
+          "id": "popular",
+          "name": "Popüler Animeler",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": false
+        }
+      ]
+    },
+    {
+      "id": "plugin.trdiziizle",
+      "name": "TrDiziİzle",
+      "logo": "https://www.google.com/s2/favicons?domain=trdiziizle.tv&sz=256",
+      "version": "0.1.0",
+      "filename": "trdiziizle.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        {
+          "id": "home",
+          "name": "Dizi Kategorileri",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": false
+        }
+      ]
+    },
+    {
+      "id": "plugin.webteizle",
+      "name": "Webteİzle",
+      "logo": "https://www.google.com/s2/favicons?domain=webteizle.info&sz=256",
+      "version": "0.1.0",
+      "filename": "webteizle.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "movie"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        {
+          "id": "home",
+          "name": "Son Eklenen Filmler",
+          "type": "movie",
+          "showInHome": true,
+          "supportsPagination": false
+        }
+      ]
+    },
+    {
+      "id": "plugin.yabancidizi",
+      "name": "YabancıDizi",
+      "logo": "https://www.google.com/s2/favicons?domain=yabancidizi.news&sz=256",
+      "version": "0.1.0",
+      "filename": "yabancidizi.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "catalogs": [
+        {
+          "id": "popular",
+          "name": "Popüler Diziler",
+          "type": "series",
+          "showInHome": true,
+          "supportsPagination": false
+        }
+      ]
+    },
+    {
+      "id": "plugin.catalog.seyirturk",
+      "name": "SeyirTURK",
+      "logo": "https://www.google.com/s2/favicons?domain=seyirturk.net&sz=256",
+      "version": "0.1.0",
+      "filename": "seyirturk.js",
+      "pluginType": "catalog",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": false,
+      "supportsSearch": true,
+      "catalogs": [
+        {
+          "id": "movie-latest",
+          "name": "Son Eklenen Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-popular",
+          "name": "Popüler Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-imdb-popular",
+          "name": "IMDb Popüler Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-top-250",
+          "name": "IMDb Top 250 Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-4k",
+          "name": "4K Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-domestic",
+          "name": "Yerli Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-yesilcam",
+          "name": "Yeşilçam Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-german",
+          "name": "Almanca Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-film-noir",
+          "name": "Suç (Eski) Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-latest",
+          "name": "Yeni Bölümü Çıkan Diziler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-all",
+          "name": "Tüm Diziler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-domestic",
+          "name": "Yerli Diziler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-foreign",
+          "name": "Yabancı Diziler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-turkish-dubbed",
+          "name": "Türkçe Dublaj Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-turkish-dubbed",
+          "name": "Türkçe Dublaj Diziler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-turkish-subtitled",
+          "name": "Türkçe Altyazı Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-turkish-subtitled",
+          "name": "Türkçe Altyazı Diziler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-korean",
+          "name": "Kore Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-korean",
+          "name": "Kore Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-family",
+          "name": "Aile Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-family",
+          "name": "Aile Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-action",
+          "name": "Aksiyon Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-action",
+          "name": "Aksiyon Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-animation",
+          "name": "Animasyon Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-animation",
+          "name": "Animasyon Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-anime",
+          "name": "Anime Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-anime",
+          "name": "Anime Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-documentary",
+          "name": "Belgeseller",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-documentary",
+          "name": "Belgesel Diziler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-science-fiction",
+          "name": "Bilim Kurgu Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-science-fiction",
+          "name": "Bilim Kurgu Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-biography",
+          "name": "Biyografi Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-biography",
+          "name": "Biyografi Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-drama",
+          "name": "Dram Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-drama",
+          "name": "Dram Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-fantasy",
+          "name": "Fantastik Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-fantasy",
+          "name": "Fantastik Diziler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-thriller",
+          "name": "Gerilim Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-thriller",
+          "name": "Gerilim Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-mystery",
+          "name": "Gizem Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-mystery",
+          "name": "Gizem Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-news",
+          "name": "Haber Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-news",
+          "name": "Haber Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-indian",
+          "name": "Hint Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-indian",
+          "name": "Hint Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-short",
+          "name": "Kısa Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-short",
+          "name": "Kısa Diziler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-comedy",
+          "name": "Komedi Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-comedy",
+          "name": "Komedi Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-horror",
+          "name": "Korku Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-horror",
+          "name": "Korku Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-western",
+          "name": "Western Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-western",
+          "name": "Western Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-adventure",
+          "name": "Macera Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-adventure",
+          "name": "Macera Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-music",
+          "name": "Müzik Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-music",
+          "name": "Müzik Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-musical",
+          "name": "Müzikal Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-musical",
+          "name": "Müzikal Diziler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-game-show",
+          "name": "Oyun Gösterisi Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-game-show",
+          "name": "Oyun Gösterisi Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-reality-tv",
+          "name": "Reality TV Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-reality-tv",
+          "name": "Reality TV Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-romance",
+          "name": "Romantik Filmler",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-romance",
+          "name": "Romantik Diziler",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-war",
+          "name": "Savaş Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-war",
+          "name": "Savaş Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-sport",
+          "name": "Spor Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-sport",
+          "name": "Spor Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-crime",
+          "name": "Suç Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-crime",
+          "name": "Suç Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        },
+        {
+          "id": "movie-history",
+          "name": "Tarih Filmleri",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "series-history",
+          "name": "Tarih Dizileri",
+          "type": "series",
+          "supportsPagination": true
+        }
+      ]
+    }
+  ],
+  "catalogs": [
+    {
+      "id": "catalog.nuvio",
+      "name": "Nuvio Katalog",
+      "manifest": "https://catalog.nuvio.tv/%7B%22language%22:%22tr-TR%22,%22region%22:%22TR%22%7D/manifest.json",
+      "logo": "https://www.google.com/s2/favicons?domain=nuvio.tv&sz=256"
+    },
+    {
+      "id": "catalog.izlelan",
+      "name": "izlelan Katalog",
+      "manifest": "https://katalog.izlelan.com/manifest.json",
+      "logo": "https://www.google.com/s2/favicons?domain=stremio.com&sz=256"
+    },
+    {
+      "id": "catalog.izlemeli",
+      "name": "izlemeli.com Katalog",
+      "manifest": "https://izlemeli.github.io/nuvio/tr/manifest.json",
+      "logo": "https://www.google.com/s2/favicons?domain=izlemeli.com&sz=256"
+    }
+  ],
+  "collections": [
+    {
+      "id": "collection.izlemeli",
+      "name": "izlemeli.com Koleksiyon",
+      "manifest": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections.json",
+      "logo": "https://www.google.com/s2/favicons?domain=izlemeli.com&sz=256"
+    }
+  ]
+}
