@@ -8,7 +8,8 @@
   "scrapers": [
     {
      "id": "plugin.catalog.tvmatik",
-      "name": "TvMatik Katalog Plugin",
+      "name": "TvMatik Katalog",
+      "description": "Nuvio kataloğunun Türkçe çevirisidir.",
       "logo": "https://avatars.githubusercontent.com/u/344911087?s=200&v=4",
       "version": "0.1.0",
       "filename": "catalog.js",
@@ -276,6 +277,7 @@
     {
       "id": "plugin.hdfilmcehennemi",
       "name": "HDFilmCehennemi",
+        
       "logo": "https://www.google.com/s2/favicons?domain=hdfilmcehennemi.com&sz=256",
       "version": "0.1.1",
       "filename": "hdfilmcehennemi.js",
@@ -392,6 +394,7 @@
     {
       "id": "plugin.filmmakinesi",
       "name": "FilmMakinesi",
+      "description": "Türkçe altyazılı ve dublajlı, yabancı ve yerli filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=filmmakinesi.to&sz=256",
       "version": "0.1.0",
       "filename": "filmmakinesi.js",
@@ -496,6 +499,7 @@
     {
       "id": "plugin.rarefilm",
       "name": "RareFilm",
+      "description": "Türk ve dünya sinemasından unutulmuş filmler.",
       "logo": "https://www.google.com/s2/favicons?domain=rarefilmm.com&sz=256",
       "version": "0.1.0",
       "filename": "rarefilm.js",
@@ -606,6 +610,7 @@
     {
       "id": "plugin.4khdhub",
       "name": "4KHDHub",
+      "description": "Türkçe altyazılı 4k 2k 1080p filmler/diziler",
       "logo": "https://www.google.com/s2/favicons?domain=4khdhub.com&sz=256",
       "version": "0.1.0",
       "filename": "4khdhub.js",
@@ -632,6 +637,7 @@
     {
       "id": "plugin.aoneroom",
       "name": "123Movies",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=123moviesfree.club&sz=256",
       "version": "0.1.0",
       "filename": "aoneroom.js",
@@ -648,6 +654,7 @@
     {
       "id": "plugin.atlantic",
       "name": "Atlantic",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=atlantic.st&sz=256",
       "version": "0.1.0",
       "filename": "atlantic.js",
@@ -664,6 +671,7 @@
     {
       "id": "plugin.febbox",
       "name": "Febbox",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=febbox.com&sz=256",
       "version": "0.1.0",
       "filename": "febbox.js",
@@ -680,6 +688,7 @@
     {
       "id": "plugin.kmmovies",
       "name": "KMMovies",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=kmmovies.cam&sz=256",
       "version": "0.1.0",
       "filename": "kmmovies.js",
@@ -696,6 +705,7 @@
     {
       "id": "plugin.mapple",
       "name": "Mapple",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=mapple.fun&sz=256",
       "version": "0.1.0",
       "filename": "mapple.js",
@@ -712,6 +722,7 @@
     {
       "id": "plugin.moviesapi",
       "name": "MoviesAPI",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=moviesapi.to&sz=256",
       "version": "0.1.0",
       "filename": "moviesapi.js",
@@ -728,6 +739,7 @@
     {
       "id": "plugin.moviesdrive",
       "name": "MoviesDrive",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=moviesdrive.beer&sz=256",
       "version": "0.1.0",
       "filename": "moviesdrive.js",
@@ -744,6 +756,7 @@
     {
       "id": "plugin.popwatch",
       "name": "PopWatch",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=popwatch.pro&sz=256",
       "version": "0.1.0",
       "filename": "popwatch.js",
@@ -760,6 +773,7 @@
     {
       "id": "plugin.thugtv",
       "name": "ThugTV",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=thugtv.online&sz=256",
       "version": "0.1.0",
       "filename": "thugtv.js",
@@ -776,6 +790,7 @@
     {
       "id": "plugin.uhdmovies",
       "name": "UHDMovies",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=uhdmovies.us.org&sz=256",
       "version": "0.1.0",
       "filename": "uhdmovies.js",
@@ -792,6 +807,7 @@
     {
       "id": "plugin.vaplayer",
       "name": "VAplayer",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=vaplayer.ru&sz=256",
       "version": "0.1.0",
       "filename": "vaplayer.js",
@@ -808,6 +824,7 @@
     {
       "id": "plugin.vidbolt",
       "name": "VidBolt",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=vidbolt.xyz&sz=256",
       "version": "0.1.0",
       "filename": "vidbolt.js",
@@ -824,6 +841,7 @@
     {
       "id": "plugin.vidcloud",
       "name": "VidCloud",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=vidy.st&sz=256",
       "version": "0.1.0",
       "filename": "vidcloud.js",
@@ -840,6 +858,7 @@
     {
       "id": "plugin.vidlove",
       "name": "Vidlove",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=vidlove.cc&sz=256",
       "version": "0.1.0",
       "filename": "vidlove.js",
@@ -856,6 +875,7 @@
     {
       "id": "plugin.vidrift",
       "name": "VidRift",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=vidrift.net&sz=256",
       "version": "0.1.0",
       "filename": "vidrift.js",
@@ -872,6 +892,7 @@
     {
       "id": "plugin.vidrock",
       "name": "VidRock",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=vidrock.net&sz=256",
       "version": "0.1.0",
       "filename": "vidrock.js",
@@ -888,6 +909,7 @@
     {
       "id": "plugin.vixsrc",
       "name": "VixSrc",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=vixsrc.to&sz=256",
       "version": "0.1.0",
       "filename": "vixsrc.js",
@@ -904,6 +926,7 @@
     {
       "id": "plugin.yts",
       "name": "YTS",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=yts-official.com&sz=256",
       "version": "0.1.0",
       "filename": "yts.js",
@@ -919,6 +942,7 @@
     {
       "id": "plugin.filmekseni",
       "name": "FilmEkseni",
+      "description": "Türkçe altyazılı ve dublajlı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=filmekseni.vip&sz=256",
       "version": "0.1.0",
       "filename": "filmekseni.js",
@@ -998,6 +1022,7 @@
     {
       "id": "plugin.diziyou",
       "name": "DiziYou",
+      "description": "Türkçe altyazılı ve dublajlı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=diziyou.one&sz=256",
       "version": "0.1.0",
       "filename": "diziyou.js",
@@ -1112,6 +1137,7 @@
     {
       "id": "plugin.dizibox",
       "name": "DiziBox",
+      "description": "Türkçe altyazılı diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=www.dizibox.live&sz=256",
       "version": "0.1.0",
       "filename": "dizibox.js",
@@ -1237,87 +1263,9 @@
       ]
     },
     {
-      "id": "plugin.sinewix",
-      "name": "SineWix",
-      "logo": "https://www.google.com/s2/favicons?domain=sinewix.com&sz=256",
-      "version": "0.1.0",
-      "filename": "sinewix.js",
-      "pluginType": "catalog",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "contentLanguage": [
-        "tr"
-      ],
-      "supportsStreams": true,
-      "supportsSearch": true,
-      "catalogs": [
-        {
-          "id": "latest-movies",
-          "name": "Yeni Eklenen Filmler",
-          "type": "movie",
-          "supportsPagination": true
-        },
-        {
-          "id": "latest-series",
-          "name": "Yeni Eklenen Diziler",
-          "type": "series",
-          "supportsPagination": true
-        },
-        {
-          "id": "latest-animes",
-          "name": "Yeni Eklenen Animeler",
-          "type": "series",
-          "supportsPagination": true
-        },
-        {
-          "id": "latest-episodes",
-          "name": "Yeni Bölümler",
-          "type": "series",
-          "supportsPagination": true
-        },
-        {
-          "id": "crime-movies",
-          "name": "Suç Filmleri",
-          "type": "movie",
-          "supportsPagination": true
-        },
-        {
-          "id": "crime-series",
-          "name": "Suç Dizileri",
-          "type": "series",
-          "supportsPagination": true
-        },
-        {
-          "id": "mystery-movies",
-          "name": "Gizem Filmleri",
-          "type": "movie",
-          "supportsPagination": true
-        },
-        {
-          "id": "mystery-series",
-          "name": "Gizem Dizileri",
-          "type": "series",
-          "supportsPagination": true
-        },
-        {
-          "id": "animation-movies",
-          "name": "Animasyon Filmleri",
-          "type": "movie",
-          "supportsPagination": true
-        },
-        {
-          "id": "war-politics-series",
-          "name": "Savaş ve Politika Dizileri",
-          "type": "series",
-          "supportsPagination": true
-        }
-      ]
-    },
-    {
       "id": "plugin.dizimom",
       "name": "DiziMom",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=dizimom.help&sz=256",
       "version": "0.1.0",
       "filename": "dizimom.js",
@@ -1332,6 +1280,7 @@
     {
       "id": "plugin.filmmodu",
       "name": "FilmModu",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=filmmodu.cc&sz=256",
       "version": "0.1.0",
       "filename": "filmmodu.js",
@@ -1392,6 +1341,7 @@
     {
       "id": "plugin.dizibal",
       "name": "DiziBal",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=dizibal.org&sz=256",
       "version": "0.1.0",
       "filename": "dizibal.js",
@@ -1435,6 +1385,7 @@
     {
       "id": "plugin.dexterpw",
       "name": "DexterPW",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=dexter.pw&sz=256",
       "version": "0.1.0",
       "filename": "dexterpw.js",
@@ -1622,6 +1573,7 @@
     {
       "id": "plugin.animecix",
       "name": "AnimeciX",
+      "description": "Türkçe altyazılı animeler.",
       "logo": "https://www.google.com/s2/favicons?domain=animecix.tv&sz=256",
       "version": "0.1.0",
       "filename": "animecix.js",
@@ -1654,6 +1606,7 @@
     {
       "id": "plugin.animeprax",
       "name": "AnimePraX",
+      "description": "Türkçe altyazılı animeler.",
       "logo": "https://www.google.com/s2/favicons?domain=animeprax.com&sz=256",
       "version": "0.1.0",
       "filename": "animeprax.js",
@@ -1679,6 +1632,7 @@
     {
       "id": "plugin.animom",
       "name": "AniMOM",
+      "description": "Türkçe altyazılı animeler.",
       "logo": "https://www.google.com/s2/favicons?domain=animom.org&sz=256",
       "version": "0.1.0",
       "filename": "animom.js",
@@ -1704,6 +1658,7 @@
     {
       "id": "plugin.anizium",
       "name": "Anizium",
+      "description": "Türkçe altyazılı animeler.",
       "logo": "https://www.google.com/s2/favicons?domain=anizium.co&sz=256",
       "version": "0.1.0",
       "filename": "anizium.js",
@@ -1730,6 +1685,7 @@
     {
       "id": "plugin.anizm",
       "name": "Anizm",
+      "description": "Türkçe altyazılı animeler.",
       "logo": "https://www.google.com/s2/favicons?domain=anizm.net&sz=256",
       "version": "0.1.0",
       "filename": "anizm.js",
@@ -1755,6 +1711,7 @@
     {
       "id": "plugin.ddizi",
       "name": "DDizi",
+      "description": "Türkçe yerli diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=ddizi.im&sz=256",
       "version": "0.1.0",
       "filename": "ddizi.js",
@@ -1801,6 +1758,7 @@
     {
       "id": "plugin.ddizibox",
       "name": "DDiziBox",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=ddizibox.com&sz=256",
       "version": "0.1.0",
       "filename": "ddizibox.js",
@@ -1855,6 +1813,7 @@
     {
       "id": "plugin.dizibak",
       "name": "DiziBak",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=dizibak.net&sz=256",
       "version": "0.1.0",
       "filename": "dizibak.js",
@@ -1879,6 +1838,7 @@
     {
       "id": "plugin.diziboxizle",
       "name": "DiziBoxİzle",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=diziboxizle.com&sz=256",
       "version": "0.1.0",
       "filename": "diziboxizle.js",
@@ -1903,6 +1863,7 @@
     {
       "id": "plugin.dizilla",
       "name": "Dizilla",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=dizilla.now&sz=256",
       "version": "0.1.0",
       "filename": "dizilla.js",
@@ -1918,6 +1879,7 @@
     {
       "id": "plugin.dizipod",
       "name": "DiziPod",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=dizipod.com&sz=256",
       "version": "0.1.0",
       "filename": "dizipod.js",
@@ -1943,6 +1905,7 @@
     {
       "id": "plugin.diziwatch",
       "name": "DiziWatch",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=diziwatch.app&sz=256",
       "version": "0.1.0",
       "filename": "diziwatch.js",
@@ -1967,6 +1930,7 @@
     {
       "id": "plugin.hdfilmdelisi",
       "name": "HDFilmDelisi",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=hdfilmdelisi.one&sz=256",
       "version": "0.1.0",
       "filename": "hdfilmdelisi.js",
@@ -1991,6 +1955,7 @@
     {
       "id": "plugin.hdfilmizle",
       "name": "HDFilmİzle",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=hdfilmizle.vip&sz=256",
       "version": "0.1.0",
       "filename": "hdfilmizle.js",
@@ -2015,6 +1980,7 @@
     {
       "id": "plugin.kultfilmler",
       "name": "KultFilmler",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=kultfilmler.net&sz=256",
       "version": "0.1.0",
       "filename": "kultfilmler.js",
@@ -2054,6 +2020,7 @@
     {
       "id": "plugin.liderfilmizle",
       "name": "LiderFilm",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=liderfilmizle.vip&sz=256",
       "version": "0.1.0",
       "filename": "liderfilmizle.js",
@@ -2086,6 +2053,7 @@
     {
       "id": "plugin.setfilmizle",
       "name": "SetFilmİzle",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=setfilmizle.ltd&sz=256",
       "version": "0.1.0",
       "filename": "setfilmizle.js",
@@ -2132,6 +2100,7 @@
     {
       "id": "plugin.sinemacx",
       "name": "SinemaCX",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=sinema.gg&sz=256",
       "version": "0.1.0",
       "filename": "sinemacx.js",
@@ -2178,6 +2147,7 @@
     {
       "id": "plugin.sonanime",
       "name": "SonAnime",
+      "description": "Türkçe altyazılı animeler.",
       "logo": "https://www.google.com/s2/favicons?domain=sonanime.com&sz=256",
       "version": "0.1.0",
       "filename": "sonanime.js",
@@ -2203,6 +2173,7 @@
     {
       "id": "plugin.trdiziizle",
       "name": "TrDiziİzle",
+      "description": "Türkçe altyazılı diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=trdiziizle.tv&sz=256",
       "version": "0.1.0",
       "filename": "trdiziizle.js",
@@ -2227,6 +2198,7 @@
     {
       "id": "plugin.webteizle",
       "name": "Webteİzle",
+      "description": "Türkçe altyazılı filmler/diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=webteizle.info&sz=256",
       "version": "0.1.0",
       "filename": "webteizle.js",
@@ -2251,6 +2223,7 @@
     {
       "id": "plugin.yabancidizi",
       "name": "YabancıDizi",
+      "description": "Türkçe altyazılı yabancı diziler.",
       "logo": "https://www.google.com/s2/favicons?domain=yabancidizi.news&sz=256",
       "version": "0.1.0",
       "filename": "yabancidizi.js",
@@ -2275,6 +2248,7 @@
     {
       "id": "plugin.catalog.seyirturk",
       "name": "SeyirTURK",
+      "description": "SeyirTURK kataloğu.",
       "logo": "https://www.google.com/s2/favicons?domain=seyirturk.net&sz=256",
       "version": "0.1.0",
       "filename": "seyirturk.js",
@@ -2734,18 +2708,14 @@
     {
       "id": "catalog.nuvio",
       "name": "Nuvio Katalog",
+      "description": "Nuvio varsayılan kataloğu.",
       "manifest": "https://catalog.nuvio.tv/%7B%22language%22:%22tr-TR%22,%22region%22:%22TR%22%7D/manifest.json",
       "logo": "https://www.google.com/s2/favicons?domain=nuvio.tv&sz=256"
     },
     {
-      "id": "catalog.izlelan",
-      "name": "izlelan Katalog",
-      "manifest": "https://katalog.izlelan.com/manifest.json",
-      "logo": "https://www.google.com/s2/favicons?domain=stremio.com&sz=256"
-    },
-    {
       "id": "catalog.izlemeli",
       "name": "izlemeli.com Katalog",
+      "description": "izlemeli.com ayrıntılı katalog.",
       "manifest": "https://izlemeli.github.io/nuvio/tr/manifest.json",
       "logo": "https://www.google.com/s2/favicons?domain=izlemeli.com&sz=256"
     }
@@ -2754,6 +2724,7 @@
     {
       "id": "collection.izlemeli",
       "name": "izlemeli.com Koleksiyon",
+      "description": "izlemeli.com ayrıntılı koleksiyon.",
       "manifest": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections.json",
       "logo": "https://www.google.com/s2/favicons?domain=izlemeli.com&sz=256"
     }
