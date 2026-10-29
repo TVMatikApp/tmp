@@ -7,9 +7,9 @@
   "author": "tvmatik",
   "scrapers": [
     {
-      "id": "plugin.catalog.nuvio",
-      "name": "Nuvio Katalog Plugin",
-      "logo": "https://www.google.com/s2/favicons?domain=catalog.nuvio.tv&sz=256",
+     "id": "plugin.catalog.tvmatik",
+      "name": "TvMatik Katalog Plugin",
+      "logo": "https://avatars.githubusercontent.com/u/344911087?s=200&v=4",
       "version": "0.1.0",
       "filename": "catalog.js",
       "pluginType": "catalog",
