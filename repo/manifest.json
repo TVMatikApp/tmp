@@ -3,6 +3,7 @@
   "name": "TVMatik Plugins",
   "description": "TVMatik eklenti deposu",
   "logo": "https://avatars.githubusercontent.com/u/344905757?v=4",
+  "background": "https://raw.githubusercontent.com/TVMatikApp/tmp/refs/heads/main/img/banner.png", 
   "version": "0.1.4",
   "author": "tvmatik",
   "scrapers": [
