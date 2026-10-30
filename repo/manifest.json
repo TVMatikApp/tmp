@@ -2249,6 +2249,7 @@
     {
       "id": "plugin.yesilcamtv",
       "name": "YesilcamTV",
+      "description": "Eski Türk sineması yeşilçam filmleri",
       "logo": "https://www.google.com/s2/favicons?domain=yesilcamtv.com.tr&sz=256",
       "version": "0.1.0",
       "filename": "yesilcamtv.js",
