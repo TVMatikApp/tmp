@@ -10,7 +10,7 @@
     {
      "id": "plugin.catalog.tvmatik",
       "name": "TvMatik Katalog",
-      "description": "Nuvio kataloğunun Türkçe çevirisidir.",
+      "description": "Türkçe katalog",
       "logo": "https://avatars.githubusercontent.com/u/344911087?s=200&v=4",
       "version": "0.1.0",
       "filename": "catalog.js",
@@ -2243,6 +2243,120 @@
           "type": "series",
           "showInHome": true,
           "supportsPagination": false
+        }
+      ]
+    },
+    {
+      "id": "plugin.yesilcamtv",
+      "name": "YesilcamTV",
+      "logo": "https://www.google.com/s2/favicons?domain=yesilcamtv.com.tr&sz=256",
+      "version": "0.1.0",
+      "filename": "yesilcamtv.js",
+      "pluginType": "local-website",
+      "supportedTypes": [
+        "movie"
+      ],
+      "contentLanguage": [
+        "tr"
+      ],
+      "supportsStreams": true,
+      "supportsSearch": true,
+      "catalogs": [
+        {
+          "id": "family",
+          "name": "Aile",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "action",
+          "name": "Aksiyon",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "science-fiction",
+          "name": "Bilim Kurgu",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "drama",
+          "name": "Dram",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "fantasy",
+          "name": "Fantastik",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "thriller",
+          "name": "Gerilim",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "mystery",
+          "name": "Gizem",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "comedy",
+          "name": "Komedi",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "horror",
+          "name": "Korku",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "adventure",
+          "name": "Macera",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "music",
+          "name": "Müzik",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "romance",
+          "name": "Romantik",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "war",
+          "name": "Savaş",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "crime",
+          "name": "Suç",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "history",
+          "name": "Tarih",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "western",
+          "name": "Vahşi Batı",
+          "type": "movie",
+          "supportsPagination": true
         }
       ]
     },
