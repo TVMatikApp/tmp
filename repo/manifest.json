@@ -2844,5 +2844,21 @@
       "manifest": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections.json",
       "logo": "https://www.google.com/s2/favicons?domain=izlemeli.com&sz=256"
     }
+  ],
+  "televisions": [
+    {
+      "id": "tv.tvvoo.tr",
+      "name": "Vavoo Türkiye",
+      "description": "Vavoo Türk Kanalları.",
+      "manifest": "https://tvvoo.hayd.uk/cfg-tr-hc1/manifest.json",
+      "logo": "https://www.google.com/s2/favicons?domain=tvvoo.hayd.uk&sz=256"
+    },
+    {
+      "id": "tv.tvvoo.multi",
+      "name": "Vavoo Yabancı",
+      "description": "Vaoo Yabancı Kanallar.",
+      "manifest": "https://tvvoo.hayd.uk/cfg-it-uk-fr-de-pt-es-al-nl-ar-bk-ru-ro-pl-bg-hc1/manifest.json",
+      "logo": "https://www.google.com/s2/favicons?domain=tvvoo.hayd.uk&sz=256"
+    }
   ]
 }
