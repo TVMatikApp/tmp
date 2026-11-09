@@ -3,14 +3,14 @@
   "name": "TVMatik Plugins",
   "description": "TVMatik eklenti deposu",
   "logo": "https://avatars.githubusercontent.com/u/344905757?v=4",
-  "background": "https://raw.githubusercontent.com/TVMatikApp/tmp/refs/heads/main/img/banner.png", 
+  "background": "https://raw.githubusercontent.com/TVMatikApp/tmp/refs/heads/main/img/banner.png",
   "version": "0.1.4",
   "author": "tvmatik",
   "scrapers": [
     {
-     "id": "plugin.catalog.tvmatik",
-      "name": "TvMatik Katalog",
-      "description": "Türkçe katalog",
+      "id": "plugin.catalog.tvmatik",
+      "name": "TVMatik Katalog",
+      "description": "Türkçe TVMatik Katalog",
       "logo": "https://avatars.githubusercontent.com/u/344911087?s=200&v=4",
       "version": "0.1.0",
       "filename": "catalog.js",
@@ -60,6 +60,28 @@
             {
               "name": "search"
             },
+            {
+              "name": "genre"
+            }
+          ]
+        },
+        {
+          "id": "movies-by-language",
+          "name": "Yerli Filmler",
+          "type": "movie",
+          "supportsPagination": true,
+          "extra": [
+            {
+              "name": "genre"
+            }
+          ]
+        },
+        {
+          "id": "series-by-language",
+          "name": "Yerli Diziler",
+          "type": "series",
+          "supportsPagination": true,
+          "extra": [
             {
               "name": "genre"
             }
@@ -138,28 +160,6 @@
           ]
         },
         {
-          "id": "movies-by-language",
-          "name": "Dillere Göre Filmler",
-          "type": "movie",
-          "supportsPagination": true,
-          "extra": [
-            {
-              "name": "genre"
-            }
-          ]
-        },
-        {
-          "id": "series-by-language",
-          "name": "Dillere Göre Diziler",
-          "type": "series",
-          "supportsPagination": true,
-          "extra": [
-            {
-              "name": "genre"
-            }
-          ]
-        },
-        {
           "id": "netflix-movies",
           "name": "Netflix Filmleri",
           "type": "movie",
@@ -227,7 +227,7 @@
         },
         {
           "id": "international-cinema",
-          "name": "Uluslararası Sinema",
+          "name": "Uluslararası Filmler",
           "type": "movie",
           "supportsPagination": true
         },
@@ -235,12 +235,6 @@
           "id": "international-series",
           "name": "Uluslararası Diziler",
           "type": "series",
-          "supportsPagination": true
-        },
-        {
-          "id": "independent-and-festival-picks",
-          "name": "Bağımsız ve Festival Seçkileri",
-          "type": "movie",
           "supportsPagination": true
         },
         {
@@ -272,13 +266,18 @@
           "name": "Aile Dizileri",
           "type": "series",
           "supportsPagination": true
+        },
+        {
+          "id": "independent-and-festival-picks",
+          "name": "Bağımsız ve Festival Seçkileri",
+          "type": "movie",
+          "supportsPagination": true
         }
       ]
     },
     {
       "id": "plugin.hdfilmcehennemi",
       "name": "HDFilmCehennemi",
-        
       "logo": "https://www.google.com/s2/favicons?domain=hdfilmcehennemi.com&sz=256",
       "version": "0.1.1",
       "filename": "hdfilmcehennemi.js",
@@ -625,14 +624,54 @@
       ],
       "supportsStreams": true,
       "catalogs": [
-        { "id": "netflix", "name": "Netflix", "type": "movie", "supportsPagination": true },
-        { "id": "amazon_prime_video", "name": "Amazon Prime Video", "type": "movie", "supportsPagination": true },
-        { "id": "jiohotstar", "name": "JioHotstar", "type": "movie", "supportsPagination": true },
-        { "id": "disney", "name": "Disney+", "type": "movie", "supportsPagination": true },
-        { "id": "apple_tv", "name": "Apple TV+", "type": "movie", "supportsPagination": true },
-        { "id": "hbo_max", "name": "HBO Max", "type": "movie", "supportsPagination": true },
-        { "id": "hulu", "name": "Hulu", "type": "movie", "supportsPagination": true },
-        { "id": "crave", "name": "Crave", "type": "movie", "supportsPagination": true }
+        {
+          "id": "netflix",
+          "name": "Netflix",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "amazon_prime_video",
+          "name": "Amazon Prime Video",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "jiohotstar",
+          "name": "JioHotstar",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "disney",
+          "name": "Disney+",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "apple_tv",
+          "name": "Apple TV+",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "hbo_max",
+          "name": "HBO Max",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "hulu",
+          "name": "Hulu",
+          "type": "movie",
+          "supportsPagination": true
+        },
+        {
+          "id": "crave",
+          "name": "Crave",
+          "type": "movie",
+          "supportsPagination": true
+        }
       ]
     },
     {
