@@ -13,7 +13,7 @@
       "name": "TVMatik Katalog 1",
       "description": "Türkçe TVMatik Katalog",
       "logo": "https://avatars.githubusercontent.com/u/344911087?s=200&v=4",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "filename": "catalog1.js",
       "pluginType": "catalog",
       "priority": 1,
