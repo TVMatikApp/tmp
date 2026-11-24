@@ -746,7 +746,17 @@
     }
   ],
   "collections": [
-     {
+    {
+      "id": "collection.tvmatik.platforms",
+      "name": "TVMatik Platformlar Koleksiyonu",
+      "description": "TVMatik ayrıntılı platformlar koleksiyonu.",
+      "manifest": "https://raw.githubusercontent.com/tvmatikapp/tmp/refs/heads/main/repo/platforms.json",
+      "logo": "https://avatars.githubusercontent.com/u/344911087?s=200&v=4",
+      "pluginType": "collection",
+      "showWithCatalog": true,
+      "enabled": true
+    },
+    {
       "id": "collection.tvmatik.izlemeli",
       "name": "TVMatik Koleksiyon 1",
       "description": "TVMatik ayrıntılı koleksiyon.",

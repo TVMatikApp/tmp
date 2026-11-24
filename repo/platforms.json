@@ -1,0 +1,1183 @@
+[
+     {
+        "id": "collection-platformlar",
+        "title": "Platformlar",
+        "folders": [
+            {
+                "id": "folder-p0",
+                "title": "Netflix",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "2023-01-01",
+                            "withWatchProviders": "8",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "releaseDateGte": "2023-01-01",
+                            "withWatchProviders": "8",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withWatchProviders": "8",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withWatchProviders": "8",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 500,
+                            "withWatchProviders": "8",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withWatchProviders": "8",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎬",
+                "focusGifUrl": "https://i.imgur.com/D4BotS0.gif",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-netflix.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": true,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-netflix.jpg"
+            },
+            {
+                "id": "folder-p1",
+                "title": "Disney+",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "2023-01-01",
+                            "withWatchProviders": "337",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "releaseDateGte": "2023-01-01",
+                            "withWatchProviders": "337",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withWatchProviders": "337",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withWatchProviders": "337",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 500,
+                            "withWatchProviders": "337",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withWatchProviders": "337",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎬",
+                "focusGifUrl": "https://i.imgur.com/U0fiQD2.gif",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-disney.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": true,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-disney.jpg"
+            },
+            {
+                "id": "folder-p2",
+                "title": "Prime Video",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "2023-01-01",
+                            "withWatchProviders": "9|119",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "releaseDateGte": "2023-01-01",
+                            "withWatchProviders": "9|119",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withWatchProviders": "9|119",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withWatchProviders": "9|119",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 500,
+                            "withWatchProviders": "9|119",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withWatchProviders": "9|119",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎬",
+                "focusGifUrl": "https://i.imgur.com/EC86GDK.gif",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-prime-video.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": true,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-prime-video.jpg"
+            },
+            {
+                "id": "folder-p3",
+                "title": "HBO Max",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "2023-01-01",
+                            "withWatchProviders": "1899",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "releaseDateGte": "2023-01-01",
+                            "withWatchProviders": "1899",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withWatchProviders": "1899",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withWatchProviders": "1899",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 500,
+                            "withWatchProviders": "1899",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withWatchProviders": "1899",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎬",
+                "focusGifUrl": "https://i.imgur.com/HosrvBs.gif",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-hbo-max.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": true,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-hbo-max.jpg"
+            },
+            {
+                "id": "folder-p4",
+                "title": "Apple TV+",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "2023-01-01",
+                            "withWatchProviders": "350",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "releaseDateGte": "2023-01-01",
+                            "withWatchProviders": "350",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withWatchProviders": "350",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withWatchProviders": "350",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 500,
+                            "withWatchProviders": "350",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withWatchProviders": "350",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎬",
+                "focusGifUrl": "https://i.imgur.com/zyygKMv.gif",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-apple-tv.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": true,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-apple-tv.jpg"
+            },
+            {
+                "id": "folder-5r1u6e",
+                "title": "Hulu",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "2023-01-01",
+                            "withWatchProviders": "15",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "releaseDateGte": "2023-01-01",
+                            "withWatchProviders": "15",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withWatchProviders": "15",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withWatchProviders": "15",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 500,
+                            "withWatchProviders": "15",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withWatchProviders": "15",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎬",
+                "focusGifUrl": "https://i.imgur.com/clhOp9J.gif",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-hulu.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": true,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-hulu.jpg"
+            },
+            {
+                "id": "folder-feift3",
+                "title": "Paramount+",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "2023-01-01",
+                            "withWatchProviders": "2303",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "releaseDateGte": "2023-01-01",
+                            "withWatchProviders": "2303",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withWatchProviders": "2303",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withWatchProviders": "2303",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 500,
+                            "withWatchProviders": "2303",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withWatchProviders": "2303",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎬",
+                "focusGifUrl": "https://i.imgur.com/vgpNYV7.gif",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-paramount.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": true,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-paramount.jpg"
+            },
+            {
+                "id": "folder-n0eoke",
+                "title": "Peacock",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "2023-01-01",
+                            "withWatchProviders": "387",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "releaseDateGte": "2023-01-01",
+                            "withWatchProviders": "387",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withWatchProviders": "387",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withWatchProviders": "387",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 500,
+                            "withWatchProviders": "387",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 200,
+                            "withWatchProviders": "387",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎬",
+                "focusGifUrl": "https://i.imgur.com/gdOrrGY.gif",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-peacock.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": true,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-peacock.jpg"
+            },
+            {
+                "id": "folder-e99ym9",
+                "title": "MUBI",
+                "sources": [
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Filmler",
+                        "sortBy": "primary_release_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "releaseDateGte": "2023-01-01",
+                            "withWatchProviders": "11",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yeni Diziler",
+                        "sortBy": "first_air_date.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 5,
+                            "releaseDateGte": "2023-01-01",
+                            "withWatchProviders": "11",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Filmler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withWatchProviders": "11",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Popüler Diziler",
+                        "sortBy": "popularity.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 20,
+                            "withWatchProviders": "11",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Filmler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 100,
+                            "withWatchProviders": "11",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "MOVIE",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    },
+                    {
+                        "type": null,
+                        "genre": null,
+                        "title": "Yüksek Puanlı Diziler",
+                        "sortBy": "vote_average.desc",
+                        "tmdbId": null,
+                        "addonId": null,
+                        "filters": {
+                            "voteCountGte": 30,
+                            "withWatchProviders": "11",
+                            "watchRegion": "US"
+                        },
+                        "sortHow": null,
+                        "provider": "tmdb",
+                        "catalogId": null,
+                        "mediaType": "TV",
+                        "traktListId": null,
+                        "tmdbSourceType": "DISCOVER"
+                    }
+                ],
+                "hideTitle": true,
+                "tileShape": "LANDSCAPE",
+                "coverEmoji": "🎬",
+                "focusGifUrl": "https://i.imgur.com/akZooOI.gif",
+                "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-mubi.jpg",
+                "catalogSources": [],
+                "focusGifEnabled": true,
+                "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-mubi.jpg"
+            }
+        ],
+        "pinToTop": true,
+        "viewMode": "TABBED_GRID",
+        "showAllTab": true,
+        "backdropImageUrl": null,
+        "focusGlowEnabled": true
+    }
+]
