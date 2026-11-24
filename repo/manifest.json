@@ -17,6 +17,7 @@
       "filename": "catalog1.js",
       "pluginType": "catalog",
       "priority": 1,
+      "enabled": true,
       "supportedTypes": [
         "movie",
         "tv"
@@ -461,9 +462,10 @@
       "description": "Türkçe TVMatik Katalog",
       "logo": "https://avatars.githubusercontent.com/u/344911087?s=200&v=4",
       "version": "0.1.1",
+      "filename": "catalog2.js",
       "pluginType": "catalog",
       "priority": 2,
-      "filename": "catalog2.js",
+      "enabled": true,
       "supportedTypes": [
         "movie",
         "tv"
@@ -733,7 +735,8 @@
       "manifest": "https://izlemeli.github.io/nuvio/tr/manifest.json",
       "logo": "https://www.google.com/s2/favicons?domain=izlemeli.com&sz=256",
       "pluginType": "catalog",
-      "priority": 3
+      "priority": 3,
+      "enabled": true
     },
     {
       "id": "catalog.nuvio",
@@ -741,8 +744,9 @@
       "description": "Nuvio Katalog.",
       "manifest": "https://catalog.nuvio.tv/%7B%22language%22:%22tr-TR%22,%22region%22:%22TR%22%7D/manifest.json",
       "logo": "https://www.google.com/s2/favicons?domain=nuvio.tv&sz=256",
-      "pluginType": "catalog",  
-      "priority": 4
+      "pluginType": "catalog",
+      "priority": 4,
+      "enabled": true
     }
   ],
   "collections": [
@@ -752,9 +756,10 @@
       "description": "TVMatik ayrıntılı platformlar koleksiyonu.",
       "manifest": "https://raw.githubusercontent.com/tvmatikapp/tmp/refs/heads/main/repo/platforms.json",
       "logo": "https://avatars.githubusercontent.com/u/344911087?s=200&v=4",
+      "version": "0.1.1",
       "pluginType": "collection",
       "showWithCatalog": true,
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "collection.tvmatik.izlemeli",
@@ -762,8 +767,10 @@
       "description": "TVMatik ayrıntılı koleksiyon.",
       "manifest": "https://raw.githubusercontent.com/tvmatikapp/tmp/refs/heads/main/repo/collection1.json",
       "logo": "https://avatars.githubusercontent.com/u/344911087?s=200&v=4",
+      "version": "0.1.0",
       "pluginType": "collection",
-      "priority": 1
+      "priority": 1,
+      "enabled": false
     },
     {
       "id": "collection.izlemeli",
@@ -771,19 +778,21 @@
       "description": "izlemeli.com ayrıntılı koleksiyon.",
       "manifest": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections.json",
       "logo": "https://www.google.com/s2/favicons?domain=izlemeli.com&sz=256",
+      "version": "0.1.0",
       "pluginType": "collection",
-      "priority": 2
+      "priority": 2,
+      "enabled": false
     }
   ],
   "plugins": [
-     {
+    {
       "id": "scraper.izlelan",
       "name": "izlelan",
       "description": "izlelan kaynakları.",
       "manifest": "https://izlelan.com/manifest.json",
       "logo": "https://forum.sinetech.tr/data/avatars/s/28/28479.jpg?1789744475",
       "pluginType": "scraper",
-      "enabled":true,
+      "enabled": true,
       "priority": 1
     },
     {
@@ -793,7 +802,7 @@
       "manifest": "https://raw.githubusercontent.com/F0Rextasy/bigbullapp-cs/refs/heads/master/nuvio/manifest.json",
       "logo": "https://avatars.githubusercontent.com/u/99847357?v=4",
       "pluginType": "scraper",
-      "enabled":true,
+      "enabled": true,
       "priority": 2
     },
     {
@@ -803,7 +812,7 @@
       "manifest": "https://raw.githubusercontent.com/onrcvndev/nuvio-plugin-tr/main/manifest.json",
       "logo": "https://avatars.githubusercontent.com/in/15368?s=64&v=4",
       "pluginType": "scraper",
-      "enabled":false,
+      "enabled": false,
       "priority": 3
     }
   ]
