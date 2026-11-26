@@ -759,7 +759,7 @@
       "version": "0.1.1",
       "pluginType": "collection",
       "showWithCatalog": true,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "collection.tvmatik.izlemeli",
