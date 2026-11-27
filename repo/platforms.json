@@ -1172,6 +1172,58 @@
                 "catalogSources": [],
                 "focusGifEnabled": true,
                 "heroBackdropUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-mubi.jpg"
+            },
+            {
+                "id": "folder-tabii",
+                "title": "tabii",
+                "sources": [
+                    { "type": null, "genre": null, "title": "Yeni Filmler", "sortBy": "primary_release_date.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 20, "releaseDateGte": "2023-01-01", "withWatchProviders": "2231", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yeni Diziler", "sortBy": "first_air_date.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 5, "releaseDateGte": "2023-01-01", "withWatchProviders": "2231", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Popüler Filmler", "sortBy": "popularity.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 20, "withWatchProviders": "2231", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Popüler Diziler", "sortBy": "popularity.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 20, "withWatchProviders": "2231", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yüksek Puanlı Filmler", "sortBy": "vote_average.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 500, "withWatchProviders": "2231", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yüksek Puanlı Diziler", "sortBy": "vote_average.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 200, "withWatchProviders": "2231", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" }
+                ],
+                "hideTitle": true, "tileShape": "LANDSCAPE", "coverEmoji": "\\uD83C\\uDFAC", "focusGifUrl": null, "coverImageUrl": null, "catalogSources": [], "focusGifEnabled": false, "heroBackdropUrl": null
+            },
+            {
+                "id": "folder-exxen",
+                "title": "Exxen",
+                "sources": [
+                    { "type": null, "genre": null, "title": "Yeni Filmler", "sortBy": "primary_release_date.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 20, "releaseDateGte": "2023-01-01", "withWatchProviders": "1003", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yeni Diziler", "sortBy": "first_air_date.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 5, "releaseDateGte": "2023-01-01", "withWatchProviders": "1003", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Popüler Filmler", "sortBy": "popularity.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 20, "withWatchProviders": "1003", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Popüler Diziler", "sortBy": "popularity.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 20, "withWatchProviders": "1003", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yüksek Puanlı Filmler", "sortBy": "vote_average.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 500, "withWatchProviders": "1003", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yüksek Puanlı Diziler", "sortBy": "vote_average.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 200, "withWatchProviders": "1003", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" }
+                ],
+                "hideTitle": true, "tileShape": "LANDSCAPE", "coverEmoji": "\\uD83C\\uDFAC", "focusGifUrl": null, "coverImageUrl": null, "catalogSources": [], "focusGifEnabled": false, "heroBackdropUrl": null
+            },
+            {
+                "id": "folder-gain",
+                "title": "GAIN",
+                "sources": [
+                    { "type": null, "genre": null, "title": "Yeni Filmler", "sortBy": "primary_release_date.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 20, "releaseDateGte": "2023-01-01", "withWatchProviders": "1907", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yeni Diziler", "sortBy": "first_air_date.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 5, "releaseDateGte": "2023-01-01", "withWatchProviders": "1907", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Popüler Filmler", "sortBy": "popularity.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 20, "withWatchProviders": "1907", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Popüler Diziler", "sortBy": "popularity.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 20, "withWatchProviders": "1907", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yüksek Puanlı Filmler", "sortBy": "vote_average.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 500, "withWatchProviders": "1907", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yüksek Puanlı Diziler", "sortBy": "vote_average.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 200, "withWatchProviders": "1907", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" }
+                ],
+                "hideTitle": true, "tileShape": "LANDSCAPE", "coverEmoji": "\\uD83C\\uDFAC", "focusGifUrl": null, "coverImageUrl": null, "catalogSources": [], "focusGifEnabled": false, "heroBackdropUrl": null
+            },
+            {
+                "id": "folder-puhutv",
+                "title": "puhutv",
+                "sources": [
+                    { "type": null, "genre": null, "title": "Yeni Filmler", "sortBy": "primary_release_date.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 20, "releaseDateGte": "2023-01-01", "withWatchProviders": "475", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yeni Diziler", "sortBy": "first_air_date.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 5, "releaseDateGte": "2023-01-01", "withWatchProviders": "475", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Popüler Filmler", "sortBy": "popularity.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 20, "withWatchProviders": "475", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Popüler Diziler", "sortBy": "popularity.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 20, "withWatchProviders": "475", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yüksek Puanlı Filmler", "sortBy": "vote_average.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 500, "withWatchProviders": "475", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yüksek Puanlı Diziler", "sortBy": "vote_average.desc", "tmdbId": null, "addonId": null, "filters": { "voteCountGte": 200, "withWatchProviders": "475", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" }
+                ],
+                "hideTitle": true, "tileShape": "LANDSCAPE", "coverEmoji": "\\uD83C\\uDFAC", "focusGifUrl": null, "coverImageUrl": null, "catalogSources": [], "focusGifEnabled": false, "heroBackdropUrl": null
             }
         ],
         "pinToTop": true,
