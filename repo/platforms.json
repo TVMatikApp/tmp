@@ -126,7 +126,6 @@
                 ],
                 "hideTitle": true,
                 "tileShape": "LANDSCAPE",
-                "coverEmoji": "🎬",
                 "focusGifUrl": "https://i.imgur.com/D4BotS0.gif",
                 "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-netflix.jpg",
                 "catalogSources": [],
@@ -256,7 +255,6 @@
                 ],
                 "hideTitle": true,
                 "tileShape": "LANDSCAPE",
-                "coverEmoji": "🎬",
                 "focusGifUrl": "https://i.imgur.com/U0fiQD2.gif",
                 "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-disney.jpg",
                 "catalogSources": [],
@@ -386,7 +384,6 @@
                 ],
                 "hideTitle": true,
                 "tileShape": "LANDSCAPE",
-                "coverEmoji": "🎬",
                 "focusGifUrl": "https://i.imgur.com/EC86GDK.gif",
                 "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-prime-video.jpg",
                 "catalogSources": [],
@@ -516,7 +513,6 @@
                 ],
                 "hideTitle": true,
                 "tileShape": "LANDSCAPE",
-                "coverEmoji": "🎬",
                 "focusGifUrl": "https://i.imgur.com/HosrvBs.gif",
                 "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-hbo-max.jpg",
                 "catalogSources": [],
@@ -646,7 +642,6 @@
                 ],
                 "hideTitle": true,
                 "tileShape": "LANDSCAPE",
-                "coverEmoji": "🎬",
                 "focusGifUrl": "https://i.imgur.com/zyygKMv.gif",
                 "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-apple-tv.jpg",
                 "catalogSources": [],
@@ -776,7 +771,6 @@
                 ],
                 "hideTitle": true,
                 "tileShape": "LANDSCAPE",
-                "coverEmoji": "🎬",
                 "focusGifUrl": "https://i.imgur.com/clhOp9J.gif",
                 "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-hulu.jpg",
                 "catalogSources": [],
@@ -906,7 +900,6 @@
                 ],
                 "hideTitle": true,
                 "tileShape": "LANDSCAPE",
-                "coverEmoji": "🎬",
                 "focusGifUrl": "https://i.imgur.com/vgpNYV7.gif",
                 "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-paramount.jpg",
                 "catalogSources": [],
@@ -1036,7 +1029,6 @@
                 ],
                 "hideTitle": true,
                 "tileShape": "LANDSCAPE",
-                "coverEmoji": "🎬",
                 "focusGifUrl": "https://i.imgur.com/gdOrrGY.gif",
                 "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-peacock.jpg",
                 "catalogSources": [],
@@ -1166,7 +1158,6 @@
                 ],
                 "hideTitle": true,
                 "tileShape": "LANDSCAPE",
-                "coverEmoji": "🎬",
                 "focusGifUrl": "https://i.imgur.com/akZooOI.gif",
                 "coverImageUrl": "https://raw.githubusercontent.com/izlemeli/nuvio/refs/heads/main/collections/x/platformlar-mubi.jpg",
                 "catalogSources": [],
@@ -1176,7 +1167,87 @@
         ],
         "pinToTop": true,
         "viewMode": "TABBED_GRID",
-        "showAllTab": true,
+        "showAllTab": false,
+        "backdropImageUrl": null,
+        "focusGlowEnabled": true
+    },
+    {
+        "id": "collection-yerli-platformlar",
+        "title": "Yerli Platformlar",
+        "folders": [
+            {
+                "id": "folder-tabii",
+                "title": "tabii",
+                "sources": [
+                    { "type": null, "genre": null, "title": "Yeni Diziler", "sortBy": "first_air_date.desc", "tmdbId": null, "addonId": null, "filters": { "withNetworks": "6854", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Popüler Diziler", "sortBy": "popularity.desc", "tmdbId": null, "addonId": null, "filters": { "withNetworks": "6854", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yüksek Puanlı Diziler", "sortBy": "vote_average.desc", "tmdbId": null, "addonId": null, "filters": { "withNetworks": "6854", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" }
+                ],
+                "hideTitle": true, "tileShape": "LANDSCAPE", "focusGifUrl": null, "coverImageUrl": "https://raw.githubusercontent.com/tvmatikapp/tmp/refs/heads/main/img/platform-tabii.png", "catalogSources": [], "focusGifEnabled": false, "heroBackdropUrl": "https://raw.githubusercontent.com/tvmatikapp/tmp/refs/heads/main/img/platform-tabii.png"
+            },
+            {
+                "id": "folder-exxen",
+                "title": "Exxen",
+                "sources": [
+                    { "type": null, "genre": null, "title": "Yeni Diziler", "sortBy": "first_air_date.desc", "tmdbId": null, "addonId": null, "filters": { "withNetworks": "4405", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Popüler Diziler", "sortBy": "popularity.desc", "tmdbId": null, "addonId": null, "filters": { "withNetworks": "4405", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yüksek Puanlı Diziler", "sortBy": "vote_average.desc", "tmdbId": null, "addonId": null, "filters": { "withNetworks": "4405", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" }
+                ],
+                "hideTitle": true, "tileShape": "LANDSCAPE", "focusGifUrl": null, "coverImageUrl": "https://raw.githubusercontent.com/tvmatikapp/tmp/refs/heads/main/img/platform-exxen.png", "catalogSources": [], "focusGifEnabled": false, "heroBackdropUrl": "https://raw.githubusercontent.com/tvmatikapp/tmp/refs/heads/main/img/platform-exxen.png"
+            },
+            {
+                "id": "folder-gain",
+                "title": "GAIN",
+                "sources": [
+                    { "type": null, "genre": null, "title": "Yeni Diziler", "sortBy": "first_air_date.desc", "tmdbId": null, "addonId": null, "filters": { "withNetworks": "4409", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Popüler Diziler", "sortBy": "popularity.desc", "tmdbId": null, "addonId": null, "filters": { "withNetworks": "4409", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yüksek Puanlı Diziler", "sortBy": "vote_average.desc", "tmdbId": null, "addonId": null, "filters": { "withNetworks": "4409", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" }
+                ],
+                "hideTitle": true, "tileShape": "LANDSCAPE", "focusGifUrl": null, "coverImageUrl": "https://raw.githubusercontent.com/tvmatikapp/tmp/refs/heads/main/img/platform-gain.png", "catalogSources": [], "focusGifEnabled": false, "heroBackdropUrl": "https://raw.githubusercontent.com/tvmatikapp/tmp/refs/heads/main/img/platform-gain.png"
+            },
+            {
+                "id": "folder-puhutv",
+                "title": "puhutv",
+                "sources": [
+                    { "type": null, "genre": null, "title": "Yeni Filmler", "sortBy": "primary_release_date.desc", "tmdbId": null, "addonId": null, "filters": { "withWatchProviders": "342", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yeni Diziler", "sortBy": "first_air_date.desc", "tmdbId": null, "addonId": null, "filters": { "withWatchProviders": "342", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Popüler Filmler", "sortBy": "popularity.desc", "tmdbId": null, "addonId": null, "filters": { "withWatchProviders": "342", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Popüler Diziler", "sortBy": "popularity.desc", "tmdbId": null, "addonId": null, "filters": { "withWatchProviders": "342", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yüksek Puanlı Filmler", "sortBy": "vote_average.desc", "tmdbId": null, "addonId": null, "filters": { "withWatchProviders": "342", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yüksek Puanlı Diziler", "sortBy": "vote_average.desc", "tmdbId": null, "addonId": null, "filters": { "withWatchProviders": "342", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" }
+                ],
+                "hideTitle": true, "tileShape": "LANDSCAPE", "focusGifUrl": null, "coverImageUrl": "https://raw.githubusercontent.com/tvmatikapp/tmp/refs/heads/main/img/platform-puhu.png", "catalogSources": [], "focusGifEnabled": false, "heroBackdropUrl": "https://raw.githubusercontent.com/tvmatikapp/tmp/refs/heads/main/img/platform-puhu.png"
+            },
+            {
+                "id": "folder-blutv",
+                "title": "BluTV",
+                "sources": [
+                    { "type": null, "genre": null, "title": "Yeni Filmler", "sortBy": "primary_release_date.desc", "tmdbId": null, "addonId": null, "filters": { "withNetworks": "1747", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yeni Diziler", "sortBy": "first_air_date.desc", "tmdbId": null, "addonId": null, "filters": { "withNetworks": "1747", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Popüler Filmler", "sortBy": "popularity.desc", "tmdbId": null, "addonId": null, "filters": { "withNetworks": "1747", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Popüler Diziler", "sortBy": "popularity.desc", "tmdbId": null, "addonId": null, "filters": { "withNetworks": "1747", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yüksek Puanlı Filmler", "sortBy": "vote_average.desc", "tmdbId": null, "addonId": null, "filters": { "withNetworks": "1747", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yüksek Puanlı Diziler", "sortBy": "vote_average.desc", "tmdbId": null, "addonId": null, "filters": { "withNetworks": "1747", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" }
+                ],
+                "hideTitle": true, "tileShape": "LANDSCAPE", "focusGifUrl": null, "coverImageUrl": "https://raw.githubusercontent.com/tvmatikapp/tmp/refs/heads/main/img/platform-blu.png", "catalogSources": [], "focusGifEnabled": false, "heroBackdropUrl": "https://raw.githubusercontent.com/tvmatikapp/tmp/refs/heads/main/img/platform-blu.png"
+            },
+            {
+                "id": "folder-tvplus",
+                "title": "TV+",
+                "sources": [
+                    { "type": null, "genre": null, "title": "Yeni Filmler", "sortBy": "primary_release_date.desc", "tmdbId": null, "addonId": null, "filters": { "withWatchProviders": "1904", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yeni Diziler", "sortBy": "first_air_date.desc", "tmdbId": null, "addonId": null, "filters": { "withWatchProviders": "1904", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Popüler Filmler", "sortBy": "popularity.desc", "tmdbId": null, "addonId": null, "filters": { "withWatchProviders": "1904", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Popüler Diziler", "sortBy": "popularity.desc", "tmdbId": null, "addonId": null, "filters": { "withWatchProviders": "1904", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yüksek Puanlı Filmler", "sortBy": "vote_average.desc", "tmdbId": null, "addonId": null, "filters": { "withWatchProviders": "1904", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "MOVIE", "traktListId": null, "tmdbSourceType": "DISCOVER" },
+                    { "type": null, "genre": null, "title": "Yüksek Puanlı Diziler", "sortBy": "vote_average.desc", "tmdbId": null, "addonId": null, "filters": { "withWatchProviders": "1904", "watchRegion": "TR" }, "sortHow": null, "provider": "tmdb", "catalogId": null, "mediaType": "TV", "traktListId": null, "tmdbSourceType": "DISCOVER" }
+                ],
+                "hideTitle": true, "tileShape": "LANDSCAPE", "focusGifUrl": null, "coverImageUrl": "https://raw.githubusercontent.com/tvmatikapp/tmp/refs/heads/main/img/platform-tvplus.png", "catalogSources": [], "focusGifEnabled": false, "heroBackdropUrl": "https://raw.githubusercontent.com/tvmatikapp/tmp/refs/heads/main/img/platform-tvplus.png"
+            }
+        ],
+        "pinToTop": true,
+        "viewMode": "TABBED_GRID",
+        "showAllTab": false,
         "backdropImageUrl": null,
         "focusGlowEnabled": true
     }
